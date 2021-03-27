@@ -2,15 +2,18 @@
 
 This is an Example app that demonstrates how simple Circular animation transitions can be accomplished from one activity to another on clicking a button. This Example uses an FAB as the button that causes the transition to the second activity.
 
-##Screenshots
+## Screenshots
+<!--
 ![Source Activity](http://i.imgur.com/9AqqpfY.png)
 ![Transition Animation 1](http://i.imgur.com/Vy3Z0bt.png)
 ![Transition Animation 2](http://i.imgur.com/OfeNQZE.png)
 ![Transition Animation 3](http://i.imgur.com/YIwDoHJ.png)
 ![Transition Animation 4](http://i.imgur.com/RJndOqT.png)
 ![Destination Activity](http://i.imgur.com/V97E4rU.png)
+-->
+<img src="http://i.imgur.com/9AqqpfY.png" alt="Source Activity" width="300px"> <img src="http://i.imgur.com/Vy3Z0bt.png" alt="Transition Animation 1" width="300px"> <img src="http://i.imgur.com/OfeNQZE.png" alt="Transition Animation 2" width="300px"> <img src="http://i.imgur.com/YIwDoHJ.png" alt="Transition Animation 3" width="300px"> <img src="http://i.imgur.com/RJndOqT.png" alt="Transition Animation 4" width="300px"> <img src="http://i.imgur.com/V97E4rU.png" alt="Destination Activity" width="300px">
 
-##Implementation
+## Implementation
 We first define the layout xml file for the destination activity as follows:
 
     <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -74,7 +77,7 @@ Finally we impliment the circularRevealTrandition() function as follows:
 
 
 
-##License
+## License
     The MIT License (MIT)
 
     Copyright (c) 2014-2016 Akhil Sudhakaran
